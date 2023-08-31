@@ -160,7 +160,7 @@ De waarde moet voldoen aan de volgende reguliere expressie: NL\\.IMRO\\.PT\\.\[A
 De inhoud van de tekstelementen is “mixed-content”. Dat betekent dat binnen deze klasse verschillende objecten door elkaar heen kunnen voorkomen. De basis word gevormd door een selectie uit XHTML. Deze wordt aangevuld met voor planteksten van belang geachte specifieke onderdelen.
 
 <b>XHTML elementen</b><br/>
-De volgende XHTML 1.0 \[https://www.w3.org/TR/xhtml1/\] elementen mogen worden gebruikt. Nadere definitie vindt plaats in het IMROPT2012 XML Schema (XSD) en dit modeldocument.
+De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen mogen worden gebruikt. Nadere definitie vindt plaats in het IMROPT2012 XML Schema (XSD) en dit modeldocument.
 
 <table style='width: 304.8pt;'><caption>Tabel XHTML elementen</caption>
 <colgroup><col id='col1' style='width: 50%;'
@@ -172,7 +172,7 @@ De volgende XHTML 1.0 \[https://www.w3.org/TR/xhtml1/\] elementen mogen worden g
 </th>
 </tr>
 </thead>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<!--...--\><br/>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<\!--...--\><br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>commentaar<br/>
 </td>
