@@ -60,7 +60,7 @@ en of het attribuut meerdere keren mag voorkomen. Na de tabel wordt per attribuu
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>1<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>eigen identificatie (idn) van het TekstObject. De code moet uniek zijn binnen het plantekstenbestand. De identificatie begint met "NL.IMRO.PT." en wordt gevolgd door max. 32 alfanumerieke tekens.<br/>
-De waarde moet voldoen aan de volgende reguliere expressie: NL\\.IMRO\\.PT\\.[A-Za-z0-9\_\\-,\\.]\{1,32\}<br/>
+De waarde moet voldoen aan de volgende reguliere expressie: NL\.IMRO\.PT\.[A-Za-z0-9_\-,\.]{1,32}<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>verwijzingNaarPlangebied<br/>
@@ -182,67 +182,67 @@ De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen mogen worden geb
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>sterke nadruk<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<em\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;em&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>nadruk<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<sub\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;sub&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>subscript<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<sup\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;sup&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>superscript<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<ul\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;ul&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>ongeordende lijst<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<ol\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;ol&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>geordende lijst<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<li\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;li&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>item in een lijst<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<p\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;p&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>paragraaf<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<br\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;br&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>nieuwe regel<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<table\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;table&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>tabel<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<tr\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;tr&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>rij in tabel<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<td\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;td&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>cel in tabel<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<th\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;th&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>kop in tabel<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>\<img\><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;img&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>afbeelding<br/>
 </td>
@@ -255,7 +255,7 @@ In de tekst attributen mag alleen worden verwezen naar afbeeldingen die deel uit
 Bij het beschikbaar stellen van objectgerichte planteksten is het mogelijk om gebruik te maken van een separaat Cascading Style Sheet (CSS bestand), waarin de gewenste opmaak van de planteksten is vastgelegd. Dit is vastgelegd in de STRI2012 [link toevoegen]. De bepaling dat alleen mag worden verwezen naar afbeeldingen die deel uitmaken van het instrument is niet van toepassing op afbeeldingen waar vanuit het CSS bestand naar wordt verwezen.
 
 <b>Toevoegingen voor opsommingen</b><br/>
-Voor de ongeordende lijst \<ul\> kunnen de volgende “classes” worden gebruikt om specifieke opsommingtekens te gebruiken. Als geen class wordt gebruikt, zal de standaard waarde worden verondersteld conform de volgende tabel:<br/>
+Voor de ongeordende lijst &lt;ul&gt; kunnen de volgende “classes” worden gebruikt om specifieke opsommingtekens te gebruiken. Als geen class wordt gebruikt, zal de standaard waarde worden verondersteld conform de volgende tabel:<br/>
 <table style='width: 100%;'><caption>Tabel gebruik van classes</caption>
 <colgroup><col id='col1' style='width: 21.336610486891384%;'
 <col id='col2' style='width: 78.66338951310861%;'
@@ -268,7 +268,7 @@ Voor de ongeordende lijst \<ul\> kunnen de volgende “classes” worden gebruik
 </thead>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>disc<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>Een gevulde cirkel. Dit is de standaard waarde van de \<ul\><br/>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>Een gevulde cirkel. Dit is de standaard waarde van de &lt;ul&gt;<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>circle<br/>
@@ -289,7 +289,7 @@ Voor de ongeordende lijst \<ul\> kunnen de volgende “classes” worden gebruik
 </tbody>
 </table>
 
-Voor de geordende lijst \<ol\> kunnen de volgende “classes” worden gebruikt om specifieke opsommingtekens te gebruiken. Als geen class wordt gebruikt, zal de standaard waarde worden verondersteld conform de volgende tabel:<br/>
+Voor de geordende lijst &lt;ol&gt; kunnen de volgende “classes” worden gebruikt om specifieke opsommingtekens te gebruiken. Als geen class wordt gebruikt, zal de standaard waarde worden verondersteld conform de volgende tabel:<br/>
 <table style='width: 100%;'><caption>Tabel gebruik van opsommingen</caption>
 <colgroup><col id='col1' style='width: 22.951779026217228%;'
 <col id='col2' style='width: 77.04822097378276%;'
@@ -302,7 +302,7 @@ Voor de geordende lijst \<ol\> kunnen de volgende “classes” worden gebruikt 
 </thead>
 <tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>decimal<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>Een numerieke waarde. Dit is de standaard waarde van de \<ol\><br/>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>Een numerieke waarde. Dit is de standaard waarde van de &lt;ol&gt;<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>decimal-leading-zero<br/>
@@ -378,33 +378,33 @@ Een verwijzing verwijst altijd naar een bepaald object in de plantekst. Deze ver
 
 Verwijzingen worden binnen IMRO geïmplementeerd als XLink [https://www.w3.org/TR/xlink11/] href. Dit kan een verwijzing binnen het planteksten bronbestand zijn, maar ook een verwijzing naar een ander bronbestand waaruit het instrument is opgebouwd. Binnen de tekst kunnen dezelfde verwijzingstypes worden gebruikt als die mogelijk zijn als attribuut bij het TekstObject, interneVerwijzing en externeVerwijzing.
 
-De opbouw van de href bij een interneVerwijzing is altijd het interne identificatienummer van een TekstObject voorafgegaan door het symbool \#, de <i>fragment identifier</i>.
+De opbouw van de href bij een interneVerwijzing is altijd het interne identificatienummer van een TekstObject voorafgegaan door het symbool #, de <i>fragment identifier</i>.
 
-Toelichting: de <i>fragment identifier</i> geeft aan dat binnen een href het volgende fragment een locatie betreft binnen het huidige bestand. Als er geen voorafgaand bestand is gespecificeerd, betreft het dus een locatie binnen het huidige bronbestand. Als de href begint met een \# wordt er dus verwezen naar een lokaal object. Dat klopt ook met de bedoeling van de links tussen Tekstobjecten. Als er verwezen wordt naar een extern object, dan begint de href niet met het \# maar wordt de fragment identifier facultatief gebruikt om een nadere locatie binnen het externe document aan te duiden.
+Toelichting: de <i>fragment identifier</i> geeft aan dat binnen een href het volgende fragment een locatie betreft binnen het huidige bestand. Als er geen voorafgaand bestand is gespecificeerd, betreft het dus een locatie binnen het huidige bronbestand. Als de href begint met een # wordt er dus verwezen naar een lokaal object. Dat klopt ook met de bedoeling van de links tussen Tekstobjecten. Als er verwezen wordt naar een extern object, dan begint de href niet met het # maar wordt de fragment identifier facultatief gebruikt om een nadere locatie binnen het externe document aan te duiden.
 
 Hier onder volgen enkele voorbeelden.
 
 <aside class='example'><i>Voorbeeld 1 - Interne verwijzing</i><br/>
-Bij een interne verwijzing is de opbouw voor de href een intern identificatienummer van een TekstObject element voorafgegaan door een \# teken.
+Bij een interne verwijzing is de opbouw voor de href een intern identificatienummer van een TekstObject element voorafgegaan door een # teken.
 
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:interneVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>\#NL.IMRO.PT.s2</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"\></span></span><span style='color: #000000;'><span style='background-color: white;'>Hoofdstuk 1 Inleidende bepalingen</span></span><span style='color: #0000FF;'><span style='background-color: white;'>\</</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:interneVerwijzing</span></span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:interneVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>#NL.IMRO.PT.s2</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"&gt;</span></span><span style='color: #000000;'><span style='background-color: white;'>Hoofdstuk 1 Inleidende bepalingen</span></span><span style='color: #0000FF;'><span style='background-color: white;'>&lt;/</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:interneVerwijzing</span></span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span>
 
 <i>Voorbeeld 2 - Verwijzing naar een extern bronbestand</i><br/>
 De verwijzing naar een bijlage bronbestand wordt als volgt vormgegeven:
 
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b\_NL.IMRO.4321.12-0004\_bijlage1.pdf</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"/\></span></span>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"/&gt;</span></span>
 
 De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden verwezen naar bronbestanden die onderdeel zijn van het desbetreffende instrument en die dus ook voorkomen in het Geleideformulier, zie STRI2012 [link toevoegen].
 
 <i>Voorbeeld 3 - Externe verwijzing</i><br/>
-Met de fragment identifier \# kan tevens een verwijzing worden gemaakt naar een bepaalde locatie binnen een extern object. Bij verwijzingen naar PDF bestanden kan op die manier worden verwezen naar een bepaalde pagina binnen het document, bijvoorbeeld:
+Met de fragment identifier # kan tevens een verwijzing worden gemaakt naar een bepaalde locatie binnen een extern object. Bij verwijzingen naar PDF bestanden kan op die manier worden verwezen naar een bepaalde pagina binnen het document, bijvoorbeeld:
 
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> <br/>
-xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b\_NL.IMRO.4321.12-0004\_bijlage1.pdf\#page=6</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"/\></span></span>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> <br/>
+xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf#page=6</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"/&gt;</span></span>
 
 bij verwijzingen naar HTML of XHTML bestanden kan er worden verwezen naar specifieke elementen in dit bronbestand, bijvoorbeeld:
 
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b\_NL.IMRO.4321.12-0004\_bijlage1.html\#hoofdstuk6</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"/\></span></span>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b_NL.IMRO.4321.12-0004_bijlage1.html#hoofdstuk6</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"/&gt;</span></span>
 
 </aside>
 
@@ -420,7 +420,7 @@ Meer technisch georiënteerde lezers zullen zich gemakkelijker een beeld kunnen 
 <li><i>punt 3</i></li>
 </ol>
 
-<aside class='example'>In bovenstaand voorbeeld wordt de inhoud van <span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>tekst</span></span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span> gevormd door<br/>
+<aside class='example'>In bovenstaand voorbeeld wordt de inhoud van <span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>tekst</span></span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span> gevormd door<br/>
 </aside>
 
 <ul><li>een aantal alfanumerieke tekens (de eigenlijke tekst);</li>
@@ -431,14 +431,14 @@ Meer technisch georiënteerde lezers zullen zich gemakkelijker een beeld kunnen 
 
 <aside class='example'>In XML code zal dit er als volgt uitzien:
 
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>tekst</span></span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span><br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>p</span></span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span>Het belangrijkste <span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'>strong</span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span>doel<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>strong</span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span>van dit voorbeeld is duidelijkheid verschaffen. Een verwijzing naar <span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b\_NL.IMRO.4321.12-0004\_bijlage1.pdf</span></span> "<span style='color: #0000FF;'><span style='background-color: white;'>\></span></span>een bijlage<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span>\> is bijvoorbeeld een apart onderdeel. Net zoals een lijst met<br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>p</span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span><br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'>ol class</span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span>lower-alpha<span style='color: #0000FF;'><span style='background-color: white;'>"\></span></span><br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'>li</span>\>punt 1<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>li</span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span><br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'>li</span>\>punt 2<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>li</span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span><br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'>li</span>\>punt 3<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>li</span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span><br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>ol</span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span><br/>
-<span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'><span style='background-color: white;'>tekst</span></span><span style='color: #0000FF;'><span style='background-color: white;'>\></span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>tekst</span></span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>p</span></span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span>Het belangrijkste <span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'>strong</span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span>doel<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>strong</span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span>van dit voorbeeld is duidelijkheid verschaffen. Een verwijzing naar <span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf</span></span> "<span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span>een bijlage<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span>&gt; is bijvoorbeeld een apart onderdeel. Net zoals een lijst met<br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>p</span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'>ol class</span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span>lower-alpha<span style='color: #0000FF;'><span style='background-color: white;'>"&gt;</span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'>li</span>&gt;punt 1<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>li</span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'>li</span>&gt;punt 2<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>li</span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #800000;'>li</span>&gt;punt 3<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>li</span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'>ol</span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span><br/>
+<span style='color: #0000FF;'><span style='background-color: white;'>&lt;</span></span><span style='color: #0000FF;'>/</span><span style='color: #800000;'><span style='background-color: white;'>tekst</span></span><span style='color: #0000FF;'><span style='background-color: white;'>&gt;</span></span><br/>
 </aside>
 

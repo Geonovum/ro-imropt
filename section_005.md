@@ -44,7 +44,7 @@ In <a href='#d3e8932'>Tabel 20</a> wordt de klasse TekstMetadata beschreven, de 
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>1<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>eigen identificatie (idn) van de TekstMetadata . De code moet uniek zijn binnen het plantekstenbestand. De identificatie begint met "NL.IMRO.PT." en wordt gevolgd door max. 32 alfanumerieke tekens.<br/>
-De volgende reguliere expressie is van toepassing: NL\\.IMRO\\.PT\\.[A-Za-z0-9\_\\-,\\.]\{1,32\}<br/>
+De volgende reguliere expressie is van toepassing: NL\.IMRO\.PT\.[A-Za-z0-9_\-,\.]{1,32}<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>verwijzingNaarPlangebied<br/>
@@ -72,7 +72,7 @@ De volgende reguliere expressie is van toepassing: NL\\.IMRO\\.PT\\.[A-Za-z0-9\_
 </td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>0..1<br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>één van de waarden volgens domein Overheden\_XX<br/>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>één van de waarden volgens domein Overheden_XX<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>naamOverheid<br/>

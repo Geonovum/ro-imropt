@@ -4,7 +4,7 @@ In dit hoofdstuk zijn de in IMROPT voorkomende domeinen van attribuutwaarden opg
 <table style='width: 100%;'><caption>Tabel Enumeratie voor ObjecttypePlan</caption>
 <colgroup><col id='col1' style='width: 100%;'
 </colgroup>
-<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>\<\<enumeration\>\><br/>
+<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>&lt;&lt;enumeration&gt;&gt;<br/>
 <b>ObjecttypePlan</b><br/>
 </th>
 </tr>
@@ -168,7 +168,7 @@ In dit hoofdstuk zijn de in IMROPT voorkomende domeinen van attribuutwaarden opg
 <table style='width: 100%;'><caption>Tabel Enumeratie voor ObjecttypeVisie</caption>
 <colgroup><col id='col1' style='width: 100%;'
 </colgroup>
-<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>\<\<enumeration\>\><br/>
+<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>&lt;&lt;enumeration&gt;&gt;<br/>
 <b>ObjecttypeVisie</b><br/>
 </th>
 </tr>
@@ -218,7 +218,7 @@ In dit hoofdstuk zijn de in IMROPT voorkomende domeinen van attribuutwaarden opg
 <table style='width: 100%;'><caption>Tabel Enumeratie voor ObjecttypeBesluit</caption>
 <colgroup><col id='col1' style='width: 100%;'
 </colgroup>
-<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>\<\<enumeration\>\><br/>
+<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>&lt;&lt;enumeration&gt;&gt;<br/>
 <b>ObjecttypeBesluit</b><br/>
 </th>
 </tr>
@@ -307,7 +307,7 @@ In dit hoofdstuk zijn de in IMROPT voorkomende domeinen van attribuutwaarden opg
 <table style='width: 100%;'><caption>Tabel Enumeratie voor Teksttype</caption>
 <colgroup><col id='col1' style='width: 100%;'
 </colgroup>
-<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>\<\<enumeration\>\><br/>
+<thead valign='top'><tr><th align='center' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: #000000;'>&lt;&lt;enumeration&gt;&gt;<br/>
 <b>Teksttype</b><br/>
 </th>
 </tr>
