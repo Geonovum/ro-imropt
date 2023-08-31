@@ -1,6 +1,6 @@
 # Domeinlijsten {#6CD320E6}
 
-In dit hoofdstuk zijn de in IMROPT voorkomende domeinen van attribuutwaarden opgenomen. Voor definities en notatie wordt verwezen naar IMRO2012 \[link toevoegen\].<br/>
+In dit hoofdstuk zijn de in IMROPT voorkomende domeinen van attribuutwaarden opgenomen. Voor definities en notatie wordt verwezen naar IMRO2012 [link toevoegen].<br/>
 <table style='width: 100%;'><caption>Tabel Enumeratie voor ObjecttypePlan</caption>
 <colgroup><col id='col1' style='width: 100%;'
 </colgroup>

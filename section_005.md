@@ -5,7 +5,7 @@ Metadata zijn gegevens over gegevens. Bepaalde metadata zijn in de gegevensset o
 <figcaption>TekstMetadata</figcaption></figure>
 
 De klasse TekstMetadata bevat een aantal algemene kenmerken die van toepassing zijn op de gehele tekst. Er is van deze klasse dus ook altijd maar één object per plan aanwezig.<br/>
-Een groot deel van deze algemene eigenschappen hoort bij het plan als geheel (dus inclusief geometrie). Deze eigenschappen zijn bij de (geometrisch bepaalde) klasse Plangebied (IMRO2012) \[link toevoegen\] of in de metadata van de GML ondergebracht. De tekst is daaraan gekoppeld. Een objectgerichte plantekst kan dus nooit zelfstandig bestaan. Altijd is minimaal één plangebied vereist.
+Een groot deel van deze algemene eigenschappen hoort bij het plan als geheel (dus inclusief geometrie). Deze eigenschappen zijn bij de (geometrisch bepaalde) klasse Plangebied (IMRO2012) [link toevoegen] of in de metadata van de GML ondergebracht. De tekst is daaraan gekoppeld. Een objectgerichte plantekst kan dus nooit zelfstandig bestaan. Altijd is minimaal één plangebied vereist.
 
 In <a href='#d3e8932'>Tabel 20</a> wordt de klasse TekstMetadata beschreven, de waarden aangegeven die deze attributen moeten bevatten en wordt aangegeven hoe vaak het attribuut voorkomt. Na de tabel wordt per attribuut een nadere toelichting gegeven.<br/>
 <table style='width: 100%;'><caption>Tabel Klasse TekstMetadata</caption>
@@ -34,7 +34,7 @@ In <a href='#d3e8932'>Tabel 20</a> wordt de klasse TekstMetadata beschreven, de 
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><i>Attribuutnaam</i><br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><b>m\*</b><br/>
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><b>m*</b><br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><b>Toelichting</b><br/>
 </td>
@@ -44,7 +44,7 @@ In <a href='#d3e8932'>Tabel 20</a> wordt de klasse TekstMetadata beschreven, de 
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>1<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>eigen identificatie (idn) van de TekstMetadata . De code moet uniek zijn binnen het plantekstenbestand. De identificatie begint met "NL.IMRO.PT." en wordt gevolgd door max. 32 alfanumerieke tekens.<br/>
-De volgende reguliere expressie is van toepassing: NL\\.IMRO\\.PT\\.\[A-Za-z0-9\_\\-,\\.\]\{1,32\}<br/>
+De volgende reguliere expressie is van toepassing: NL\\.IMRO\\.PT\\.[A-Za-z0-9\_\\-,\\.]\{1,32\}<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'>verwijzingNaarPlangebied<br/>

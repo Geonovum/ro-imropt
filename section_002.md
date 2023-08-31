@@ -50,7 +50,7 @@ en of het attribuut meerdere keren mag voorkomen. Na de tabel wordt per attribuu
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'><i>Attribuutnaam</i><br/>
 </td>
-<td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'><b>m\*</b><br/>
+<td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'><b>m*</b><br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'><b>Toelichting</b><br/>
 </td>
@@ -60,7 +60,7 @@ en of het attribuut meerdere keren mag voorkomen. Na de tabel wordt per attribuu
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>1<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>eigen identificatie (idn) van het TekstObject. De code moet uniek zijn binnen het plantekstenbestand. De identificatie begint met "NL.IMRO.PT." en wordt gevolgd door max. 32 alfanumerieke tekens.<br/>
-De waarde moet voldoen aan de volgende reguliere expressie: NL\\.IMRO\\.PT\\.\[A-Za-z0-9\_\\-,\\.\]\{1,32\}<br/>
+De waarde moet voldoen aan de volgende reguliere expressie: NL\\.IMRO\\.PT\\.[A-Za-z0-9\_\\-,\\.]\{1,32\}<br/>
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>verwijzingNaarPlangebied<br/>
@@ -110,9 +110,9 @@ De waarde moet voldoen aan de volgende reguliere expressie: NL\\.IMRO\\.PT\\.\[A
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>1<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>TitelInfo: Een samengesteld attribuut:<br/>
-<ul><li>label \[0..1\]: Soortnaam die getoond moet worden, vaak gelijk aan type. Dit is een vrij tekstveld.</li>
-<li>nummer \[0..1\]: aanduiding van het object. Een opvolgende reeks (1,2,3 of A,B,C) wordt geadviseerd.</li>
-<li>naam\[0..1\]: de zelf gekozen naam van het object.</li>
+<ul><li>label [0..1]: Soortnaam die getoond moet worden, vaak gelijk aan type. Dit is een vrij tekstveld.</li>
+<li>nummer [0..1]: aanduiding van het object. Een opvolgende reeks (1,2,3 of A,B,C) wordt geadviseerd.</li>
+<li>naam[0..1]: de zelf gekozen naam van het object.</li>
 </ul>
 
 </td>
@@ -145,7 +145,7 @@ De waarde moet voldoen aan de volgende reguliere expressie: NL\\.IMRO\\.PT\\.\[A
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>de tekst. Wat hier mag worden opgenomen staat beschreven in paragraaf <a href='#6CD31BFC'>2.3</a>.<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;' colspan='3'>\* multipliciteit<br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;' colspan='3'>* multipliciteit<br/>
 1 = komt 1 keer voor<br/>
 1..n = komt 1 of meer keer voor<br/>
 0..1 = komt hooguit 1 keer voor<br/>
@@ -251,8 +251,8 @@ De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen mogen worden geb
 </table>
 
 <b>Verwijzing naar afbeeldingen in de tekst</b><br/>
-In de tekst attributen mag alleen worden verwezen naar afbeeldingen die deel uitmaken van het instrument en die dus ook in samenhang beschikbaar gesteld worden conform de STRI2012 \[link toevoegen\]. Deze afbeeldingen worden middels een \<img\> tag in de tekst verwerkt.<br/>
-Bij het beschikbaar stellen van objectgerichte planteksten is het mogelijk om gebruik te maken van een separaat Cascading Style Sheet (CSS bestand), waarin de gewenste opmaak van de planteksten is vastgelegd. Dit is vastgelegd in de STRI2012 \[link toevoegen\]. De bepaling dat alleen mag worden verwezen naar afbeeldingen die deel uitmaken van het instrument is niet van toepassing op afbeeldingen waar vanuit het CSS bestand naar wordt verwezen.
+In de tekst attributen mag alleen worden verwezen naar afbeeldingen die deel uitmaken van het instrument en die dus ook in samenhang beschikbaar gesteld worden conform de STRI2012 [link toevoegen]. Deze afbeeldingen worden middels een \<img\> tag in de tekst verwerkt.<br/>
+Bij het beschikbaar stellen van objectgerichte planteksten is het mogelijk om gebruik te maken van een separaat Cascading Style Sheet (CSS bestand), waarin de gewenste opmaak van de planteksten is vastgelegd. Dit is vastgelegd in de STRI2012 [link toevoegen]. De bepaling dat alleen mag worden verwezen naar afbeeldingen die deel uitmaken van het instrument is niet van toepassing op afbeeldingen waar vanuit het CSS bestand naar wordt verwezen.
 
 <b>Toevoegingen voor opsommingen</b><br/>
 Voor de ongeordende lijst \<ul\> kunnen de volgende “classes” worden gebruikt om specifieke opsommingtekens te gebruiken. Als geen class wordt gebruikt, zal de standaard waarde worden verondersteld conform de volgende tabel:<br/>
@@ -376,7 +376,7 @@ Een verwijzing verwijst altijd naar een bepaald object in de plantekst. Deze ver
 
 <i>Voorbeeld: In een bestemmingsplan wordt verwezen worden naar het bestemmingsartikel “Wonen”. Hiermee wordt ook bedoeld de onderliggende leden bestemmingsomschrijving, bouwregels etc.</i>
 
-Verwijzingen worden binnen IMRO geïmplementeerd als XLink \[https://www.w3.org/TR/xlink11/\] href. Dit kan een verwijzing binnen het planteksten bronbestand zijn, maar ook een verwijzing naar een ander bronbestand waaruit het instrument is opgebouwd. Binnen de tekst kunnen dezelfde verwijzingstypes worden gebruikt als die mogelijk zijn als attribuut bij het TekstObject, interneVerwijzing en externeVerwijzing.
+Verwijzingen worden binnen IMRO geïmplementeerd als XLink [https://www.w3.org/TR/xlink11/] href. Dit kan een verwijzing binnen het planteksten bronbestand zijn, maar ook een verwijzing naar een ander bronbestand waaruit het instrument is opgebouwd. Binnen de tekst kunnen dezelfde verwijzingstypes worden gebruikt als die mogelijk zijn als attribuut bij het TekstObject, interneVerwijzing en externeVerwijzing.
 
 De opbouw van de href bij een interneVerwijzing is altijd het interne identificatienummer van een TekstObject voorafgegaan door het symbool \#, de <i>fragment identifier</i>.
 
@@ -394,7 +394,7 @@ De verwijzing naar een bijlage bronbestand wordt als volgt vormgegeven:
 
 <span style='color: #0000FF;'><span style='background-color: white;'>\<</span></span><span style='color: #800000;'><span style='background-color: white;'>imropt2012:externeVerwijzing</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:type</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>simple</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"</span></span><span style='color: #FF0000;'><span style='background-color: white;'> xl:href</span></span><span style='color: #0000FF;'><span style='background-color: white;'>="</span></span><span style='color: #000000;'><span style='background-color: white;'>b\_NL.IMRO.4321.12-0004\_bijlage1.pdf</span></span><span style='color: #0000FF;'><span style='background-color: white;'>"/\></span></span>
 
-De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden verwezen naar bronbestanden die onderdeel zijn van het desbetreffende instrument en die dus ook voorkomen in het Geleideformulier, zie STRI2012 \[link toevoegen\].
+De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden verwezen naar bronbestanden die onderdeel zijn van het desbetreffende instrument en die dus ook voorkomen in het Geleideformulier, zie STRI2012 [link toevoegen].
 
 <i>Voorbeeld 3 - Externe verwijzing</i><br/>
 Met de fragment identifier \# kan tevens een verwijzing worden gemaakt naar een bepaalde locatie binnen een extern object. Bij verwijzingen naar PDF bestanden kan op die manier worden verwezen naar een bepaalde pagina binnen het document, bijvoorbeeld:
