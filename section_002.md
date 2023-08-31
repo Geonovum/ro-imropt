@@ -172,12 +172,12 @@ De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen mogen worden geb
 </th>
 </tr>
 </thead>
-<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'> \<!--...-- \><br/>
+<tbody valign='top'><tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;!--...--&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>commentaar<br/>
 </td>
 </tr>
-<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'> \<strong \><br/>
+<tr><td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>&lt;strong&gt;<br/>
 </td>
 <td align='left' style='border-top: 0.5pt solid #666666; border-left: 0.5pt solid #666666; border-bottom: 0.5pt solid #666666; border-right: 0.5pt solid #666666; background-color: none;'>sterke nadruk<br/>
 </td>
@@ -251,7 +251,7 @@ De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen mogen worden geb
 </table>
 
 <b>Verwijzing naar afbeeldingen in de tekst</b><br/>
-In de tekst attributen mag alleen worden verwezen naar afbeeldingen die deel uitmaken van het instrument en die dus ook in samenhang beschikbaar gesteld worden conform de STRI2012 [link toevoegen]. Deze afbeeldingen worden middels een \<img\> tag in de tekst verwerkt.<br/>
+In de tekst attributen mag alleen worden verwezen naar afbeeldingen die deel uitmaken van het instrument en die dus ook in samenhang beschikbaar gesteld worden conform de STRI2012 [link toevoegen]. Deze afbeeldingen worden middels een &lt;img&gt; tag in de tekst verwerkt.<br/>
 Bij het beschikbaar stellen van objectgerichte planteksten is het mogelijk om gebruik te maken van een separaat Cascading Style Sheet (CSS bestand), waarin de gewenste opmaak van de planteksten is vastgelegd. Dit is vastgelegd in de STRI2012 [link toevoegen]. De bepaling dat alleen mag worden verwezen naar afbeeldingen die deel uitmaken van het instrument is niet van toepassing op afbeeldingen waar vanuit het CSS bestand naar wordt verwezen.
 
 <b>Toevoegingen voor opsommingen</b><br/>
