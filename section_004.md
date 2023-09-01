@@ -20,16 +20,27 @@ De constraints zijn uitgewerkt bij de objectklasse waarop ze van toepassing zijn
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TekstObject
+
 Inv VerwijzingNaarMetadata:
+
 if not (self.type = ObjecttypePlan:: document or
+
 self.type = ObjecttypeVisie:: document or
+
 self.type = ObjecttypeBesluit:: besluitdocument) then
+
  
+
 self.tekstMetadata-&gt;isEmpty()
+
  
+
 else
+
  
+
 self.tekstMetadata-&gt;notEmpty()
+
 </code>
 
 </td>
@@ -47,29 +58,47 @@ self.tekstMetadata-&gt;notEmpty()
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TekstObject
+
 Inv ObjecttypePerPlantype:
+
 def: PlanLijst : set = Set{'bestemmingsplan','beheersverordening','inpassingsplan','rijksbestemmingsplan','wijzigingsplan','uitwerkingsplan'}
+
 def: VisieLijst : set = Set{'structuurvisie'}
+
 def: BesluitLijst : set = Set{'provinciale verordening','amvb','regeling,aanwijzingsbesluit', 'beheersverordening','exploitatieplan','gerechtelijke uitspraak','omgevingsvergunning','reactieve aanwijzing','voorbereidingsbesluit'}
+
  
+
 and
+
 Planlijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies
+
 </code>
 
  <br/>
 <code>self.type.Objecttype.lijst1-&gt;notEmpty()
+
 </code>
 
  <br/>
 <code>and
+
 VisieLijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies
+
  
+
 self.type.Objecttype.lijst2-&gt;notEmpty()
+
  
+
 and
+
 Besluitlijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies
+
  
+
 self.type.Objecttype.lijst3-&gt;notEmpty()
+
 </code>
 
 </td>
@@ -84,8 +113,11 @@ self.type.Objecttype.lijst3-&gt;notEmpty()
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
 <td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TitelInfo
+
 Inv Minstens1Attribuut:
+
 (self.label-&gt;size() + self.nummer-&gt;size() + self.naam-&gt;size()) &gt;= 1
+
 </code>
 
 </td>
