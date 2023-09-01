@@ -387,15 +387,13 @@ Hier onder volgen enkele voorbeelden.
 <aside class='example'><i>Voorbeeld 1 - Interne verwijzing</i><br/>
 Bij een interne verwijzing is de opbouw voor de href een intern identificatienummer van een TekstObject element voorafgegaan door een # teken.
 
-<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>#NL.IMRO.PT.s2</span><span style='color: #0000FF;'>"&gt;</span><span style='color: #000000;'>Hoofdstuk 1 Inleidende bepalingen</span><span style='color: #0000FF;'>&lt;/</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #0000FF;'>&gt;</span>
-
+<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>#NL.IMRO.PT.s2</span><span style='color: #0000FF;'>"&gt;</span><span style='color: #000000;'>Hoofdstuk 1 Inleidende bepalingen</span><span style='color: #0000FF;'>&lt;/</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #0000FF;'>&gt;</span><br/>
 </pre>
 
 <i>Voorbeeld 2 - Verwijzing naar een extern bronbestand</i><br/>
 De verwijzing naar een bijlage bronbestand wordt als volgt vormgegeven:
 
-<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf</span><span style='color: #0000FF;'>"/&gt;</span>
-
+<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf</span><span style='color: #0000FF;'>"/&gt;</span><br/>
 </pre>
 
 De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden verwezen naar bronbestanden die onderdeel zijn van het desbetreffende instrument en die dus ook voorkomen in het Geleideformulier, zie STRI2012 [link toevoegen].
@@ -404,14 +402,12 @@ De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden
 Met de fragment identifier # kan tevens een verwijzing worden gemaakt naar een bepaalde locatie binnen een extern object. Bij verwijzingen naar PDF bestanden kan op die manier worden verwezen naar een bepaalde pagina binnen het document, bijvoorbeeld:
 
 <pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> <br/>
-xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf#page=6</span><span style='color: #0000FF;'>"/&gt;</span>
-
+xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf#page=6</span><span style='color: #0000FF;'>"/&gt;</span><br/>
 </pre>
 
 bij verwijzingen naar HTML of XHTML bestanden kan er worden verwezen naar specifieke elementen in dit bronbestand, bijvoorbeeld:
 
-<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.html#hoofdstuk6</span><span style='color: #0000FF;'>"/&gt;</span>
-
+<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.html#hoofdstuk6</span><span style='color: #0000FF;'>"/&gt;</span><br/>
 </pre>
 
 </aside>

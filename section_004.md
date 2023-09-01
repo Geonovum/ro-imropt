@@ -19,28 +19,17 @@ De constraints zijn uitgewerkt bij de objectklasse waarop ze van toepassing zijn
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TekstObject
-
-Inv VerwijzingNaarMetadata:
-
-if not (self.type = ObjecttypePlan:: document or
-
-self.type = ObjecttypeVisie:: document or
-
-self.type = ObjecttypeBesluit:: besluitdocument) then
-
- 
-
-self.tekstMetadata-&gt;isEmpty()
-
- 
-
-else
-
- 
-
-self.tekstMetadata-&gt;notEmpty()
-
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TekstObject<br/>
+Inv VerwijzingNaarMetadata:<br/>
+if not (self.type = ObjecttypePlan:: document or<br/>
+self.type = ObjecttypeVisie:: document or<br/>
+self.type = ObjecttypeBesluit:: besluitdocument) then<br/>
+ <br/>
+self.tekstMetadata-&gt;isEmpty()<br/>
+ <br/>
+else<br/>
+ <br/>
+self.tekstMetadata-&gt;notEmpty()<br/>
 </code>
 
 </td>
@@ -57,48 +46,30 @@ self.tekstMetadata-&gt;notEmpty()
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TekstObject
-
-Inv ObjecttypePerPlantype:
-
-def: PlanLijst : set = Set{'bestemmingsplan','beheersverordening','inpassingsplan','rijksbestemmingsplan','wijzigingsplan','uitwerkingsplan'}
-
-def: VisieLijst : set = Set{'structuurvisie'}
-
-def: BesluitLijst : set = Set{'provinciale verordening','amvb','regeling,aanwijzingsbesluit', 'beheersverordening','exploitatieplan','gerechtelijke uitspraak','omgevingsvergunning','reactieve aanwijzing','voorbereidingsbesluit'}
-
- 
-
-and
-
-Planlijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies
-
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TekstObject<br/>
+Inv ObjecttypePerPlantype:<br/>
+def: PlanLijst : set = Set{'bestemmingsplan','beheersverordening','inpassingsplan','rijksbestemmingsplan','wijzigingsplan','uitwerkingsplan'}<br/>
+def: VisieLijst : set = Set{'structuurvisie'}<br/>
+def: BesluitLijst : set = Set{'provinciale verordening','amvb','regeling,aanwijzingsbesluit', 'beheersverordening','exploitatieplan','gerechtelijke uitspraak','omgevingsvergunning','reactieve aanwijzing','voorbereidingsbesluit'}<br/>
+ <br/>
+and<br/>
+Planlijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies<br/>
 </code>
 
  <br/>
-<code>self.type.Objecttype.lijst1-&gt;notEmpty()
-
+<code>self.type.Objecttype.lijst1-&gt;notEmpty()<br/>
 </code>
 
  <br/>
-<code>and
-
-VisieLijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies
-
- 
-
-self.type.Objecttype.lijst2-&gt;notEmpty()
-
- 
-
-and
-
-Besluitlijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies
-
- 
-
-self.type.Objecttype.lijst3-&gt;notEmpty()
-
+<code>and<br/>
+VisieLijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies<br/>
+ <br/>
+self.type.Objecttype.lijst2-&gt;notEmpty()<br/>
+ <br/>
+and<br/>
+Besluitlijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies<br/>
+ <br/>
+self.type.Objecttype.lijst3-&gt;notEmpty()<br/>
 </code>
 
 </td>
@@ -112,12 +83,9 @@ self.type.Objecttype.lijst3-&gt;notEmpty()
 </td>
 </tr>
 <tr><td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'></td>
-<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TitelInfo
-
-Inv Minstens1Attribuut:
-
-(self.label-&gt;size() + self.nummer-&gt;size() + self.naam-&gt;size()) &gt;= 1
-
+<td align='left' style='border-top: 0.5pt solid #000000; border-left: 0.5pt solid #000000; border-bottom: 0.5pt solid #000000; border-right: 0.5pt solid #000000; background-color: none;'><code>Context: IMROPT2012::TitelInfo<br/>
+Inv Minstens1Attribuut:<br/>
+(self.label-&gt;size() + self.nummer-&gt;size() + self.naam-&gt;size()) &gt;= 1<br/>
 </code>
 
 </td>
