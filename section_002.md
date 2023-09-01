@@ -401,7 +401,7 @@ De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden
 <i>Voorbeeld 3 - Externe verwijzing</i><br/>
 Met de fragment identifier # kan tevens een verwijzing worden gemaakt naar een bepaalde locatie binnen een extern object. Bij verwijzingen naar PDF bestanden kan op die manier worden verwezen naar een bepaalde pagina binnen het document, bijvoorbeeld:
 
-<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> <br/>
+<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> 
 xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf#page=6</span><span style='color: #0000FF;'>"/&gt;</span><br/>
 </pre>
 
