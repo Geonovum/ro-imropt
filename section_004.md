@@ -54,14 +54,10 @@ def: BesluitLijst : set = Set{'provinciale verordening','amvb','regeling,aanwijz
  <br/>
 and<br/>
 Planlijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies<br/>
-</code>
-
  <br/>
-<code>self.type.Objecttype.lijst1-&gt;notEmpty()<br/>
-</code>
-
+self.type.Objecttype.lijst1-&gt;notEmpty()<br/>
  <br/>
-<code>and<br/>
+and<br/>
 VisieLijst.includes(self.tekstMetadata.TekstMetadata.typePlan) implies<br/>
  <br/>
 self.type.Objecttype.lijst2-&gt;notEmpty()<br/>
