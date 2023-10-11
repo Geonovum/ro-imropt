@@ -10,7 +10,7 @@ var documentConfig =
   latestVersion: [
     "docs.geostandaarden.nl/ro/imropt/"
   ],
-  publishDate: "2023-09-04",
+  publishDate: "2023-10-11",
   publishVersion: "1.2.0",
   thisVersion: [
     "https://geonovum.github.io/ro-imropt/"
