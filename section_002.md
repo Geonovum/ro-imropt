@@ -19,7 +19,7 @@ De verhouding tussen de verschillende TekstObjecten komt tot uitdrukking in de a
 Label, nummer en titel bepalen samen wat de volledige titel, de kop boven de tekst wordt.
 
 <i>Voorbeeld: Hoofdstuk 2 “Beschrijving bestaande situatie” in de toelichting krijgt als label de waarde “Hoofdstuk”, als nummer de waarde “2” en als naam de waarde “Beschrijving bestaande situatie”. De kop wordt dus “Hoofdstuk 2 Beschrijving bestaande situatie”.</i><br/>
-<figure><img src='media/image2.png' alt='Afbeelding in UML van het TekstObject.' style='width: 100%;'></img>
+<figure><img src='media/tekstobject.png' alt='Afbeelding in UML van het TekstObject.' style='width: 100%;'></img>
 <figcaption>TekstObject</figcaption></figure>
 
 In tabel Klasse TekstObject wordt de klasse TekstObject beschreven, waarbij per attribuut wordt aangegeven. Welke waarde gewenst is, welke dit moet zijn, of het gebruik van het attribuut verplicht is,<br/>
