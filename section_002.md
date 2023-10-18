@@ -8,7 +8,7 @@ Bij een klasse, te beschouwen als een groep van objecten met dezelfde eigenschap
 
 <i>Voorbeeld: een tekstobject heeft altijd een attribuut “titel”. De inhoud van dit attribuut is de titel van het tekstobject, bijvoorbeeld ”Wonen” .</i>
 
-De klasse TekstObject is van toepassing op alle instrumenten en heeft één bijzonder onderdeel: de tekst zelf. Dit attribuut is de eigenlijke inhoud. Binnen dit attribuut bevindt zich de tekst zelf, “de cijfers en letters”, evt. noodzakelijke opmaak zoals tabellen, lijsten, nadruk etc. In <a href='##fig-imropt-model-in-totaliteit'>Figuur 1</a> is het IMROPT model als geheel in een UML diagram weergegeven.<br/>
+De klasse TekstObject is van toepassing op alle instrumenten en heeft één bijzonder onderdeel: de tekst zelf. Dit attribuut is de eigenlijke inhoud. Binnen dit attribuut bevindt zich de tekst zelf, “de cijfers en letters”, evt. noodzakelijke opmaak zoals tabellen, lijsten, nadruk etc. In <a href='#fig-imropt-model-in-totaliteit'>Figuur 1</a> is het IMROPT model als geheel in een UML diagram weergegeven.<br/>
 <figure><img src='media/imropt_model.png' alt='Het IMROPT model wordt weergegeven met de objecten TekstMetadata, TeksObject, TitelInfo en Objecttype.' style='width: 100%;'></img>
 <figcaption>IMROPT model in totaliteit</figcaption></figure>
 
@@ -160,7 +160,7 @@ De waarde moet voldoen aan de volgende reguliere expressie: NL\.IMRO\.PT\.[A-Za-
 De inhoud van de tekstelementen is “mixed-content”. Dat betekent dat binnen deze klasse verschillende objecten door elkaar heen kunnen voorkomen. De basis word gevormd door een selectie uit XHTML. Deze wordt aangevuld met voor planteksten van belang geachte specifieke onderdelen.
 
 <b>XHTML elementen</b><br/>
-De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen (conform <a href='https://www.w3.org/TR/xhtml1/' target='_blank'>W3C</a>) mogen worden gebruikt. Nadere definitie vindt plaats in het IMROPT2012 XML Schema (XSD) en dit modeldocument.
+De volgende XHTML 1.0 elementen (conform <a href='https://www.w3.org/TR/xhtml1/' target='_blank'>W3C</a>) mogen worden gebruikt. Nadere definitie vindt plaats in het IMROPT2012 XML Schema (XSD) en dit modeldocument.
 
 <table style='width: 304.8pt;'><caption>Tabel XHTML elementen</caption>
 <colgroup><col id='col1' style='width: 50%;'
