@@ -8,8 +8,8 @@ Bij een klasse, te beschouwen als een groep van objecten met dezelfde eigenschap
 
 <i>Voorbeeld: een tekstobject heeft altijd een attribuut “titel”. De inhoud van dit attribuut is de titel van het tekstobject, bijvoorbeeld ”Wonen” .</i>
 
-De klasse TekstObject is van toepassing op alle instrumenten en heeft één bijzonder onderdeel: de tekst zelf. Dit attribuut is de eigenlijke inhoud. Binnen dit attribuut bevindt zich de tekst zelf, “de cijfers en letters”, evt. noodzakelijke opmaak zoals tabellen, lijsten, nadruk etc. In <a href='#d3e262'>Figuur 1</a> is het IMROPT model als geheel in een UML diagram weergegeven.<br/>
-<figure><img src='media/image1.png' alt='Afbeelding met tekst, schermopname, Lettertype, Rechthoek' style='width: 100%;'></img>
+De klasse TekstObject is van toepassing op alle instrumenten en heeft één bijzonder onderdeel: de tekst zelf. Dit attribuut is de eigenlijke inhoud. Binnen dit attribuut bevindt zich de tekst zelf, “de cijfers en letters”, evt. noodzakelijke opmaak zoals tabellen, lijsten, nadruk etc. In <a href='##fig-imropt-model-in-totaliteit'>Figuur 1</a> is het IMROPT model als geheel in een UML diagram weergegeven.<br/>
+<figure><img src='media/imropt_model.png' alt='Het IMROPT model wordt weergegeven met de objecten TekstMetadata, TeksObject, TitelInfo en Objecttype.' style='width: 100%;'></img>
 <figcaption>IMROPT model in totaliteit</figcaption></figure>
 
 ## Klasse TekstObject {#1DB047CE}
@@ -18,8 +18,8 @@ De tekst is samengesteld uit één of meerdere TekstObjecten, een stuk tekst met
 De verhouding tussen de verschillende TekstObjecten komt tot uitdrukking in de attributen niveau, volgnummer, ouderId en objecttype en in de volgorde in het document. Het is verplicht de TekstObjecten in de juiste volgorde in het XML document te plaatsen. Het TekstObject met volgnummer 1 wordt als eerste in het document geplaatst, het TekstObject met het hoogste volgnummer als laatste.<br/>
 Label, nummer en titel bepalen samen wat de volledige titel, de kop boven de tekst wordt.
 
-<i>Voorbeeld: Hoofdstuk 2 “Beschrijving bestaande situatie” in de toelichting krijgt als label de waarde “Hoofdstuk”, als nummer de waarde “2” en als naam de waarde “Beschrijving bestaande situatie”. De kop wordt dus “Hoofdstuk 2 Beschrijving bestaande situatie”</i><br/>
-<figure><img src='media/image2.png' alt='Afbeelding met tekst, schermopname, Lettertype, lijn' style='width: 100%;'></img>
+<i>Voorbeeld: Hoofdstuk 2 “Beschrijving bestaande situatie” in de toelichting krijgt als label de waarde “Hoofdstuk”, als nummer de waarde “2” en als naam de waarde “Beschrijving bestaande situatie”. De kop wordt dus “Hoofdstuk 2 Beschrijving bestaande situatie”.</i><br/>
+<figure><img src='media/image2.png' alt='Afbeelding in UML van het TekstObject.' style='width: 100%;'></img>
 <figcaption>TekstObject</figcaption></figure>
 
 In tabel Klasse TekstObject wordt de klasse TekstObject beschreven, waarbij per attribuut wordt aangegeven. Welke waarde gewenst is, welke dit moet zijn, of het gebruik van het attribuut verplicht is,<br/>
@@ -160,7 +160,7 @@ De waarde moet voldoen aan de volgende reguliere expressie: NL\.IMRO\.PT\.[A-Za-
 De inhoud van de tekstelementen is “mixed-content”. Dat betekent dat binnen deze klasse verschillende objecten door elkaar heen kunnen voorkomen. De basis word gevormd door een selectie uit XHTML. Deze wordt aangevuld met voor planteksten van belang geachte specifieke onderdelen.
 
 <b>XHTML elementen</b><br/>
-De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen mogen worden gebruikt. Nadere definitie vindt plaats in het IMROPT2012 XML Schema (XSD) en dit modeldocument.
+De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen (conform <a href='https://www.w3.org/TR/xhtml1/' target='_blank'>W3C</a>) mogen worden gebruikt. Nadere definitie vindt plaats in het IMROPT2012 XML Schema (XSD) en dit modeldocument.
 
 <table style='width: 304.8pt;'><caption>Tabel XHTML elementen</caption>
 <colgroup><col id='col1' style='width: 50%;'
@@ -251,8 +251,8 @@ De volgende XHTML 1.0 [https://www.w3.org/TR/xhtml1/] elementen mogen worden geb
 </table>
 
 <b>Verwijzing naar afbeeldingen in de tekst</b><br/>
-In de tekst attributen mag alleen worden verwezen naar afbeeldingen die deel uitmaken van het instrument en die dus ook in samenhang beschikbaar gesteld worden conform de STRI2012 [link toevoegen]. Deze afbeeldingen worden middels een &lt;img&gt; tag in de tekst verwerkt.<br/>
-Bij het beschikbaar stellen van objectgerichte planteksten is het mogelijk om gebruik te maken van een separaat Cascading Style Sheet (CSS bestand), waarin de gewenste opmaak van de planteksten is vastgelegd. Dit is vastgelegd in de STRI2012 [link toevoegen]. De bepaling dat alleen mag worden verwezen naar afbeeldingen die deel uitmaken van het instrument is niet van toepassing op afbeeldingen waar vanuit het CSS bestand naar wordt verwezen.
+In de tekst attributen mag alleen worden verwezen naar afbeeldingen die deel uitmaken van het instrument en die dus ook in samenhang beschikbaar gesteld worden conform de <a href='https://docs.geostandaarden.nl/ro/stri' target='_blank'>STRI2012</a>. Deze afbeeldingen worden middels een &lt;img&gt; tag in de tekst verwerkt.<br/>
+Bij het beschikbaar stellen van objectgerichte planteksten is het mogelijk om gebruik te maken van een separaat Cascading Style Sheet (CSS bestand), waarin de gewenste opmaak van de planteksten is vastgelegd. Dit is vastgelegd in de <a href='https://docs.geostandaarden.nl/ro/stri' target='_blank'>STRI2012</a>. De bepaling dat alleen mag worden verwezen naar afbeeldingen die deel uitmaken van het instrument is niet van toepassing op afbeeldingen waar vanuit het CSS bestand naar wordt verwezen.
 
 <b>Toevoegingen voor opsommingen</b><br/>
 Voor de ongeordende lijst &lt;ul&gt; kunnen de volgende “classes” worden gebruikt om specifieke opsommingtekens te gebruiken. Als geen class wordt gebruikt, zal de standaard waarde worden verondersteld conform de volgende tabel:<br/>
@@ -376,7 +376,7 @@ Een verwijzing verwijst altijd naar een bepaald object in de plantekst. Deze ver
 
 <i>Voorbeeld: In een bestemmingsplan wordt verwezen worden naar het bestemmingsartikel “Wonen”. Hiermee wordt ook bedoeld de onderliggende leden bestemmingsomschrijving, bouwregels etc.</i>
 
-Verwijzingen worden binnen IMRO geïmplementeerd als XLink [https://www.w3.org/TR/xlink11/] href. Dit kan een verwijzing binnen het planteksten bronbestand zijn, maar ook een verwijzing naar een ander bronbestand waaruit het instrument is opgebouwd. Binnen de tekst kunnen dezelfde verwijzingstypes worden gebruikt als die mogelijk zijn als attribuut bij het TekstObject, interneVerwijzing en externeVerwijzing.
+Verwijzingen worden binnen IMRO geïmplementeerd als XLink href (conform <a href='https://www.w3.org/TR/xlink11/' target='_blank'>W3C</a>). Dit kan een verwijzing binnen het planteksten bronbestand zijn, maar ook een verwijzing naar een ander bronbestand waaruit het instrument is opgebouwd. Binnen de tekst kunnen dezelfde verwijzingstypes worden gebruikt als die mogelijk zijn als attribuut bij het TekstObject, interneVerwijzing en externeVerwijzing.
 
 De opbouw van de href bij een interneVerwijzing is altijd het interne identificatienummer van een TekstObject voorafgegaan door het symbool #, de <i>fragment identifier</i>.
 
@@ -396,7 +396,7 @@ De verwijzing naar een bijlage bronbestand wordt als volgt vormgegeven:
 <pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:externeVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>b_NL.IMRO.4321.12-0004_bijlage1.pdf</span><span style='color: #0000FF;'>"/&gt;</span><br/>
 </pre>
 
-De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden verwezen naar bronbestanden die onderdeel zijn van het desbetreffende instrument en die dus ook voorkomen in het Geleideformulier, zie STRI2012 [link toevoegen].
+De bestandsnaam in dit voorbeeld is uiteraard fictief. Er dient altijd te worden verwezen naar bronbestanden die onderdeel zijn van het desbetreffende instrument en die dus ook voorkomen in het Geleideformulier, zie <a href='https://docs.geostandaarden.nl/ro/stri' target='_blank'>STRI2012</a>.
 
 <i>Voorbeeld 3 - Externe verwijzing</i><br/>
 Met de fragment identifier # kan tevens een verwijzing worden gemaakt naar een bepaalde locatie binnen een extern object. Bij verwijzingen naar PDF bestanden kan op die manier worden verwezen naar een bepaalde pagina binnen het document, bijvoorbeeld:
