@@ -18,7 +18,7 @@ var documentConfig =
   previousPublishDate: "2012-04-18",
   previousPublishVersion: "1.1.0",
   prevVersion: [
-    "ro-standaarden.geonovum.nl/2012/IMROPT/1.1/IMROPT2012-v1.1.pdf"
+    "https://ro-standaarden.geonovum.nl/2012/IMROPT/1.1/IMROPT2012-v1.1.pdf"
   ],
   previousMaturity: "def",
   github: "https://github.com/geonovum/imropt/",
