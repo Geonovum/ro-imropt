@@ -1,11 +1,11 @@
 # Metadata {#6CD320A3}
 
 Metadata zijn gegevens over gegevens. Bepaalde metadata zijn in de gegevensset opgenomen. Onderstaand diagram en tabel geven de gegevens weer die als metadata in het plantekstenbestand in de klasse TekstMetadata zijn opgenomen.<br/>
-<figure><img src='media/image4.png' alt='Afbeelding met tekst, schermopname, Lettertype, scherm' style='width: 81.74771878982688%;'></img>
+<figure><img src='media/tekstmetadata.png' alt='Afbeelding in UML van het TekstMetadata object.' style='width: 81.74771878982688%;'></img>
 <figcaption>TekstMetadata</figcaption></figure>
 
 De klasse TekstMetadata bevat een aantal algemene kenmerken die van toepassing zijn op de gehele tekst. Er is van deze klasse dus ook altijd maar één object per plan aanwezig.<br/>
-Een groot deel van deze algemene eigenschappen hoort bij het plan als geheel (dus inclusief geometrie). Deze eigenschappen zijn bij de (geometrisch bepaalde) klasse Plangebied (IMRO2012) [link toevoegen] of in de metadata van de GML ondergebracht. De tekst is daaraan gekoppeld. Een objectgerichte plantekst kan dus nooit zelfstandig bestaan. Altijd is minimaal één plangebied vereist.
+Een groot deel van deze algemene eigenschappen hoort bij het plan als geheel (dus inclusief geometrie). Deze eigenschappen zijn bij de (geometrisch bepaalde) klasse Plangebied <li><a href='https://docs.geostandaarden.nl/ro/imro' target='_blank'>(IMRO2012)</a> of in de metadata van de GML ondergebracht. De tekst is daaraan gekoppeld. Een objectgerichte plantekst kan dus nooit zelfstandig bestaan. Altijd is minimaal één plangebied vereist.
 
 In <a href='#d3e8953'>Tabel 20</a> wordt de klasse TekstMetadata beschreven, de waarden aangegeven die deze attributen moeten bevatten en wordt aangegeven hoe vaak het attribuut voorkomt. Na de tabel wordt per attribuut een nadere toelichting gegeven.<br/>
 <table style='width: 100%;'><caption>Tabel Klasse TekstMetadata</caption>
