@@ -13,16 +13,16 @@ var documentConfig =
   publishDate: "2023-10-11",
   publishVersion: "1.2.0",
   thisVersion: [
-    "https://geonovum.github.io/ro-imropt/"
+    "https://geonovum.github.io/imropt/"
   ],
   previousPublishDate: "2012-04-18",
   previousPublishVersion: "1.1.0",
   prevVersion: [
-    "docs.geostandaarden.nl/ro/def-no-imropt-20120418/"
+    "https://ro-standaarden.geonovum.nl/2012/IMROPT/1.1/IMROPT2012-v1.1.pdf/"
   ],
   previousMaturity: "def",
-  github: "https://github.com/geonovum/ro-imropt/",
-  issueBase: "https://github.com/geonovum/ro-imropt/issues/",
+  github: "https://github.com/geonovum/imropt/",
+  issueBase: "ro-standaarden@geonovum.nl",
   authors: [
     {
       name: "Beheerder RO Standaarden",
