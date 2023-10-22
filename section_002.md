@@ -387,7 +387,7 @@ Hier onder volgen enkele voorbeelden.
 <aside class='example'><i>Voorbeeld 1 - Interne verwijzing</i><br/>
 Bij een interne verwijzing is de opbouw voor de href een intern identificatienummer van een TekstObject element voorafgegaan door een # teken.
 
-<pre class="text"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>#NL.IMRO.PT.s2</span><span style='color: #0000FF;'>"&gt;</span><span style='color: #000000;'>Hoofdstuk 1 Inleidende bepalingen</span><span style='color: #0000FF;'>&lt;/</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #0000FF;'>&gt;</span><br/>
+<pre class="html"><span style='color: #0000FF;'>&lt;</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #FF0000;'> xl:type</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>simple</span><span style='color: #0000FF;'>"</span><span style='color: #FF0000;'> xl:href</span><span style='color: #0000FF;'>="</span><span style='color: #000000;'>#NL.IMRO.PT.s2</span><span style='color: #0000FF;'>"&gt;</span><span style='color: #000000;'>Hoofdstuk 1 Inleidende bepalingen</span><span style='color: #0000FF;'>&lt;/</span><span style='color: #800000;'>imropt2012:interneVerwijzing</span><span style='color: #0000FF;'>&gt;</span><br/>
 </pre>
 
 <i>Voorbeeld 2 - Verwijzing naar een extern bronbestand</i><br/>
